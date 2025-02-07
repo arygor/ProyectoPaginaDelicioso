@@ -17,6 +17,8 @@ body {
     color: #191817 ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #aeacaa;
+    background-image:  url(/assets/Sign\ In\ Form_div_.png);
+    background-attachment: fixed;
 }
 
 ul { list-style: none;}
@@ -50,3 +52,27 @@ ul { list-style: none;}
 
 }
 
+/* JUMBOTRON */
+.jumbotron {
+    padding: 60px;
+    background-image: url(/assets/jumbotron\ _div_.png);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+}
+
+
+.jumbotron h1 {
+    font-size: 56px;
+    font-weight: bold;
+    width: 450px;
+
+}
+
+ .secciontarjetas {
+    display: flex;
+    padding: 16px;
+    gap: 54px;
+
+
+}
