@@ -1,0 +1,52 @@
+/* seteo de estilos */
+
+* {
+    padding: unset;
+    margin: unset;
+    outline: unset;
+    border: unset;
+
+    /* propiedad magica de seteo */
+    box-sizing: border-box;
+    
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    color: #191817 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #aeacaa;
+}
+
+ul { list-style: none;}
+
+
+/* estilos de navbar */
+
+.lista-navbar {
+    display: flex;
+    gap: 89px;
+
+}
+
+/* boton asistencia al lado navbar */
+
+.ASISTENCIA { 
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 68px;
+
+}
+.button {
+    background-color:#3A092D;
+    background-image: linear-gradient(45deg, #3A092D, #A01A7D);
+    font-weight:bold;
+    color: #f2f2f2;
+    padding: 16px 30px;
+    border-radius: 20px;
+
+
+
+}
+
