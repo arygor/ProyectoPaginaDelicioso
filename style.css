@@ -76,3 +76,9 @@ ul { list-style: none;}
 
 
 }
+
+.galleta {
+    display: flex;
+    align-items: center;
+    
+}
